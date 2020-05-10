@@ -25,6 +25,14 @@
 
 }
 
+.name{
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.desig{
+  margin-top: 0px;
+}
+
 .grid-item{
   width: 30px;
   height: 30px;
