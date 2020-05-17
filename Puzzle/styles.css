@@ -42,10 +42,14 @@
 .grid-item{
   width: 30px;
   height: 30px;
-  background-color: black;
+  background-color: white;
   border: 1px solid black;
   text-align: center;
   position: relative;
+}
+
+.no{
+  background-color: black;
 }
 
 .ip{
