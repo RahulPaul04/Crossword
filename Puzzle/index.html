@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <script src="jquery-1.11.3.min.js">
 
     </script>
@@ -15,7 +16,7 @@
 
     function docapture(){
       window.scrollTo(0,0)
-      html2canvas(document.getElementById('box')).then(function(canvas){
+      html2canvas(document.getElementById('bbox')).then(function(canvas){
         $('#blank').attr('href',canvas.toDataURL('image/jpeg'));
         $('#blank').attr('download','Image'+'.jpeg');
         $('#blank')[0].click();
@@ -44,11 +45,15 @@
     <p class="name">കെ.വി.പോൾ</p>
     <p class="desig">(പ്രസിഡൻ്റ്)</p>
     <p class="name">പി.എസ്.അനിൽ</p>
-    <p class="desig">(സെക്രട്ടറി)</p>
+    <p>(സെക്രട്ടറി)</p>
 
 
 
-    <div  id="box" class="grid-container">
+    <div  id="bbox" class="container-fluid">
+      <h1></h1>
+
+
+    <div  id="box" class="grid-container" class="col-xl-12">
       <div class="grid-item"><input type="text" class="ip" maxlength="1"><p class="txt">1</p> </div>
       <div class="grid-item"><input type="text" class="ip" maxlength="1"><p class="txt">2</p></div>
       <div class="grid-item"><input type="text" class="ip" maxlength="1"></div>
@@ -150,6 +155,7 @@
       <div class="grid-item"><input type="text" class="ip" maxlength="1"></div>
       <div class="grid-item"><input type="text" class="ip" maxlength="1"></div>
     </div>
+  </div>
 
     <button class="bot" onclick="docapture();" name="Submit">Submit</button>
     <a href="" id="blank"></a>
