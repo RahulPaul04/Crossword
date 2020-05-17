@@ -42,7 +42,7 @@
 .grid-item{
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: black;
   border: 1px solid black;
   text-align: center;
   position: relative;
@@ -51,7 +51,7 @@
 .ip{
   border-radius: 0px;
   text-align: center;
-  height: 25px;
+  height: 27px;
   width: 25px;
   font-size: 1.2em;
   border: 0px;
