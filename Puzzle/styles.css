@@ -20,6 +20,17 @@
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
 
 }
+.non{
+  color: white;
+}
+.name1{
+  width: 60%;
+  outline: none;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+}
 #not{
   margin-top: 50px;
   padding-bottom: 30px;
